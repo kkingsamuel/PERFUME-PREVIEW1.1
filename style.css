@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../FONTS/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Fraunces;
+    src: url(../FONTS/static/Fraunces_72pt/Fraunces_72pt-Regular.ttf);
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: white ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.image {
+    background: url(./images/image-product-desktop.jpg);
+    background-size: 170px;
+    width: 50%;
+    background-position-x: 70%;
+    background-repeat: no-repeat; 
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.right-info{
+    margin: 6px;
+    padding: px;
+    width: px;
+}
+
+h1{ font-size: smaller;
+
+}
+
+h2{
+    margin-top: 1px;
+    font-family: Montserrat;
+}
+
+h3{
+    margin-top: 1px;
+    font-size: smaller;
+}
+
+h4{
+    margin-top: -20px;
+    font-size: 30px;
+}
